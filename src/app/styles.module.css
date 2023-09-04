@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.loginDiv{
+    display: flex;
+    flex-direction: row;
+    /* height: 100vh; */
+}
+.left{
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #4285F4;
+
+    overflow: hidden;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.comName{
+    font-weight: 700;
+    font-size: 40px;
+}
+.socialIcons{
+    cursor: pointer;
+    width: 250px;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right{
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    place-items: center;
+    background-color: #F8FAFF;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.sign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+}
+.inputBoxes{
+    height: 345px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.inputBoxes label{
+    font-family: 'lato';
+    cursor: pointer;
+    user-select: none;
+}
+.email{
+    margin: 20px;
+}
+
+.input{
+    border: none;
+    font-family: 'lato';
+    outline: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #F5F5F5;
+    width: 350px;
+    margin-top: 5px;
+}
+
+.link{
+    cursor: pointer;
+    text-align: left;
+}
+.link:hover{
+    text-decoration: underline;
+    color:'#346BD4';
+}
+.btn{
+    background:#346bd4 ;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.register{
+    text-align: center;
+    margin-top: 10px;
+}
+.register label{
+    cursor: pointer;
+    color: #346bd4;
+}
+.register span{
+    color:'#999999'
+}
+
+/* dashboard styling from here  */
+.dashboard{
+    /* height: 100vh; */
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    background-color: #EAEAEA;
+    /* justify-content: space-between; */
+}
+.dashboardLeft{
+    width: 18%;
+    background-color: #4285F4;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+.dashboardItems{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.dashboardName{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.dashboardli{
+    width: 180px;
+    align-items: center;
+    /* background-color: red; */
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+}
+.dashboardli p{
+    font-size: 18px ;
+}
+.dashboardBottom{
+    position: absolute;
+    bottom: 40px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}
+.dashboardBottom p{
+    margin-bottom: 5px;
+}
+
+.dashboardRight{
+    width: 82%;
+    margin-left: 50px;
+    /* padding: 10px; */
+}
+
+.dashboardRightHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboardRightLists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboardRightHeaderName h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.dashboardRightTools{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.dashboardRightInput{
+    border: none;
+    outline: none;
+    width: 150px;
+}
+.dashboardRightToolsIcon{
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.dashboardRightInformations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.dashboardRightInformationsLists{
+    background-color: white;
+    /* height: 100px; */
+    width: 237px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0px 3px 3px 3px gray;
+}
+
+.dashboardRightChartSection{
+    margin-top: 15px;
+    padding: 10px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 3px 3px 3px gray;
+}
+.dashboardRightChartSection h1{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.dashboardRightChartSection p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.mainChart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bottmSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    columns: 2;
+}
+.TopProducts{
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 170px;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px 3px gray;
+    padding: 8px;
+}
+.TopProducts h1{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.TopProducts p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.piechart{
+    height: 130px;
+    width: 120px;
+}
+.AddProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 170px;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px 3px gray;
+    padding: 8px;
+    /* margin-bottom: 5px; */
+}
+.AddProfile1{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 170px;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px 3px gray;
+    padding: 20px;
+    /* margin-bottom: 5px; */
+}
+.AddProfile h1{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.AddProfile1 h1{
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1050px) {
+
+    .loginDiv{
+       display: flex;
+       flex-direction: column;
+        height: 100vh;
+    }
+    .left{
+        padding: 30px;
+        width: 100%;
+
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .comName{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .socialIcons{
+        margin-top: 40px;
+        position: relative;
+        bottom: 10px;
+        display: flex;
+    }
+    .right{
+        width: 100%;
+        padding: 5px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading{
+        text-align: center;
+    }
+    .options{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .inputBoxes{
+        margin-left: 40px;
+        width: 80%;
+        display: flex;
+        height: 350px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .input{
+        border: none;
+        font-family: 'lato';
+        outline: none;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: #F5F5F5;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .btn{
+        background:#346bd4 ;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        color: white;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .dashboard{
+        display: flex;
+        flex-direction: column;
+    }
+    .dashboardLeft{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .dashboardBottom{
+        display: none;
+    }
+    .dashboardRight{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .dashboardRightHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .TopProducts{
+        width: 100%;
+    }
+    .AddProfile1{
+        width: 100%;
+    }
+    .dashboardRightLists{
+        width: 100%;
+        display: none;
+    }
+    .AddProfile{
+        width: 100%;
+    }
+    .dashboardRightInformationsLists{
+        /* width: 80%; */
+        cursor: pointer;
+    }
+    .bottmSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .bottmSectionFirst{
+        max-width: 100%;
+    }
+    .bottmSectionSecond{
+        max-width:60%;
+    }
+
+}
